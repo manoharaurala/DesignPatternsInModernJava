@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Optional Design Pattern in Java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/StrategyDesignPattern.java" afterDir="false" />
+    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Strategy Design Pattern implementation using functional style using function">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/FactoryDesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/concreateImpl/childFcatory/CatLover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/concreateImpl/childFcatory/CowLover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/concreateImpl/domains/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/concreateImpl/domains/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/concreateImpl/domains/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/interfaces/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/interfaces/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FactoryDesignPattern.executor": "Run",
     "Application.IteratorDesignPattern.executor": "Run",
     "Application.OptionalDesignPattern.executor": "Run",
     "Application.StrategyDesignPattern.executor": "Run",
@@ -44,6 +54,7 @@
     "Maven.DesignPatternsInModernJava [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Global Libraries",
@@ -52,7 +63,20 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StrategyDesignPattern">
+  <component name="RunManager" selected="Application.FactoryDesignPattern">
+    <configuration name="FactoryDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factoryMethod.FactoryDesignPattern" />
+      <module name="DesignPatternsInModernJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IteratorDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Iterator.IteratorDesignPattern" />
       <module name="DesignPatternsInModernJava" />
@@ -94,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDesignPattern" />
         <item itemvalue="Application.StrategyDesignPattern" />
         <item itemvalue="Application.IteratorDesignPattern" />
         <item itemvalue="Application.OptionalDesignPattern" />
@@ -132,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731727396455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Strategy Design Pattern implementation using functional style using function">
+      <option name="closed" value="true" />
+      <created>1731738490595</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731738490595</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Optional Design Pattern in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional Design Pattern in Java" />
+    <MESSAGE value="Strategy Design Pattern implementation using functional style using function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy Design Pattern implementation using functional style using function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DesignPatternsInModernJava$OptionalDesignPattern.ic" NAME="OptionalDesignPattern Coverage Results" MODIFIED="1731725966326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
