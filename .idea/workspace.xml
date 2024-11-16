@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OptionalDesignPattern/OptionalDesignPattern.java" afterDir="false" />
+    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Optional Design Pattern in Java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorDesignPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OptionalDesignPattern/OptionalDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Optional/OptionalDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.IteratorDesignPattern.executor": "Run",
     "Application.OptionalDesignPattern.executor": "Run",
     "Maven.DesignPatternsInModernJava [clean].executor": "Run",
     "Maven.DesignPatternsInModernJava [compile].executor": "Run",
@@ -50,13 +52,26 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="OptionalDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OptionalDesignPattern.OptionalDesignPattern" />
+  <component name="RunManager" selected="Application.IteratorDesignPattern">
+    <configuration name="IteratorDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iterator.IteratorDesignPattern" />
       <module name="DesignPatternsInModernJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OptionalDesignPattern.*" />
+          <option name="PATTERN" value="Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Optional.OptionalDesignPattern" />
+      <module name="DesignPatternsInModernJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDesignPattern" />
         <item itemvalue="Application.OptionalDesignPattern" />
       </list>
     </recent_temporary>
@@ -94,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731724925034</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Optional Design Pattern in Java">
+      <option name="closed" value="true" />
+      <created>1731727396455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731727396455</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Optional Design Pattern in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optional Design Pattern in Java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DesignPatternsInModernJava$OptionalDesignPattern.ic" NAME="OptionalDesignPattern Coverage Results" MODIFIED="1731725966326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
