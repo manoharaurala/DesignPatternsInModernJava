@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Lazy evaluation using lambda expression">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DecoratorDesignPattern.java" afterDir="false" />
+    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Functional Decorator implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fluentInterface/FluentCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fluentInterface/Mailer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,7 @@
     "Application.Compute.executor": "Run",
     "Application.DecoratorDesignPattern.executor": "Run",
     "Application.FactoryDesignPattern.executor": "Run",
+    "Application.FluentCode.executor": "Run",
     "Application.IteratorDesignPattern.executor": "Run",
     "Application.LazyEvaluation.normalOrder.Compute.executor": "Run",
     "Application.OptionalDesignPattern.executor": "Run",
@@ -64,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/LazyEvaluation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorDesignPattern">
+  <component name="RunManager" selected="Application.FluentCode">
     <configuration name="Compute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LazyEvaluation.applicativeOrder.Compute" />
       <module name="DesignPatternsInModernJava" />
@@ -104,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FluentCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fluentInterface.FluentCode" />
+      <module name="DesignPatternsInModernJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fluentInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LazyEvaluation.normalOrder.Compute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LazyEvaluation.normalOrder.Compute" />
       <module name="DesignPatternsInModernJava" />
@@ -117,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strategy.StrategyDesignPattern" />
-      <module name="DesignPatternsInModernJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FluentCode" />
         <item itemvalue="Application.DecoratorDesignPattern" />
         <item itemvalue="Application.LazyEvaluation.normalOrder.Compute" />
         <item itemvalue="Application.Compute" />
         <item itemvalue="Application.FactoryDesignPattern" />
-        <item itemvalue="Application.StrategyDesignPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731754369462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Functional Decorator implementation">
+      <option name="closed" value="true" />
+      <created>1731774352256</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731774352256</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +225,8 @@
     <MESSAGE value="Strategy Design Pattern implementation using functional style using function" />
     <MESSAGE value="Factory method Design Pattern implementation using interface" />
     <MESSAGE value="Lazy evaluation using lambda expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lazy evaluation using lambda expression" />
+    <MESSAGE value="Functional Decorator implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional Decorator implementation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DesignPatternsInModernJava$OptionalDesignPattern.ic" NAME="OptionalDesignPattern Coverage Results" MODIFIED="1731725966326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
