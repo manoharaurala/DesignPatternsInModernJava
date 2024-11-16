@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Optional Design Pattern in Java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorDesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/StrategyDesignPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OptionalDesignPattern/OptionalDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Optional/OptionalDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   "keyToString": {
     "Application.IteratorDesignPattern.executor": "Run",
     "Application.OptionalDesignPattern.executor": "Run",
+    "Application.StrategyDesignPattern.executor": "Run",
     "Maven.DesignPatternsInModernJava [clean].executor": "Run",
     "Maven.DesignPatternsInModernJava [compile].executor": "Run",
     "Maven.DesignPatternsInModernJava [validate].executor": "Run",
@@ -52,7 +52,7 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IteratorDesignPattern">
+  <component name="RunManager" selected="Application.StrategyDesignPattern">
     <configuration name="IteratorDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Iterator.IteratorDesignPattern" />
       <module name="DesignPatternsInModernJava" />
@@ -79,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.StrategyDesignPattern" />
+      <module name="DesignPatternsInModernJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyDesignPattern" />
         <item itemvalue="Application.IteratorDesignPattern" />
         <item itemvalue="Application.OptionalDesignPattern" />
       </list>
