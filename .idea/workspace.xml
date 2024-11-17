@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Execute Around Method pattern using lambda expression">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sealed/BrokenLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sealed/SealedInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sealed/interfaces/GreenLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sealed/interfaces/RedLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sealed/interfaces/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sealed/interfaces/YellowLight.java" afterDir="false" />
+    <list default="true" id="5913e73d-6a97-4d98-aafd-74fa84bd8fbd" name="Changes" comment="Sealed interface">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopVsDataOrientedProgramming/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopVsDataOrientedProgramming/thirdParty/concreteImpl/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopVsDataOrientedProgramming/thirdParty/concreteImpl/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oopVsDataOrientedProgramming/thirdParty/interfaces/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "Application.Compute.executor": "Run",
     "Application.DecoratorDesignPattern.executor": "Run",
     "Application.ExecuteAroundMethod.Resource.executor": "Run",
@@ -70,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/sealed" />
       <recent name="$PROJECT_DIR$/src/main/java/ExecuteAroundMethod" />
       <recent name="$PROJECT_DIR$/src/main/java/LazyEvaluation" />
     </key>
@@ -77,7 +77,20 @@
       <recent name="ExecuteAroundMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SealedInterface">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oopVsDataOrientedProgramming.Client" />
+      <module name="DesignPatternsInModernJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopVsDataOrientedProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExecuteAroundMethodPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExecuteAroundMethod.ExecuteAroundMethodPattern" />
       <module name="DesignPatternsInModernJava" />
@@ -97,19 +110,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ExecuteAroundMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FluentCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fluentInterface.FluentCode" />
-      <module name="DesignPatternsInModernJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fluentInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.SealedInterface" />
         <item itemvalue="Application.ExecuteAroundMethodPattern" />
         <item itemvalue="Application.ExecuteAroundMethod.Resource" />
         <item itemvalue="Application.Resource" />
-        <item itemvalue="Application.FluentCode" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731845456883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Sealed interface">
+      <option name="closed" value="true" />
+      <created>1731846563593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731846563593</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +264,8 @@
     <MESSAGE value="Functional Decorator implementation" />
     <MESSAGE value="Fluence interface using lambda expression" />
     <MESSAGE value="Execute Around Method pattern using lambda expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Execute Around Method pattern using lambda expression" />
+    <MESSAGE value="Sealed interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sealed interface" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DesignPatternsInModernJava$OptionalDesignPattern.ic" NAME="OptionalDesignPattern Coverage Results" MODIFIED="1731725966326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
